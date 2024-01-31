@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+h3{
+    text-align: center;
+    color: blueviolet;
+}
+
+img{
+    max-width: 10%;
+}

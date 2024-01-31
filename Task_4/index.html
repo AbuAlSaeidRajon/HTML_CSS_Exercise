@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> Form Elements</h1>
+    <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Input Example</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    type="button"
+                </td>
+                <td>
+                    <input type="button" value="Clickme">
+                </td>
+                <td>
+                    Needs value attribute for button text.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    type="checkbox"
+                </td>
+                <td>
+                    <input type="checkbox" name="something"> Are you Human? <br>
+                    <input type="checkbox" name="something">  Are you sure? <br>
+                    <input type="checkbox" name="something"> Are all the information correct?
+                </td>
+                <td>
+                    Checkbox text is placed after input tag. you can also replace text with level. 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    type="radio"
+                </td>
+                <td>
+                    <input type="radio" name="Mac" id="user"> Mac user <br>
+                    <input type="radio" name="Laptop" id="user"> Laptop user
+                </td>
+                <td>
+                    Radio buttons allow you to choose one option
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    type="range"
+                </td>
+                <td>
+                    <input type="range" min="0" max="10">
+                </td>
+                <td>
+                    You can restrict the range by using min and max attributes. <br>
+                    type="range" is not supported in IE9 and earlier. 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Textarea
+                </td>
+                <td>
+                    <Textarea name="longest" cols="30" rows="10"> </Textarea>
+                </td>
+                <td>
+                    The size of a textarea can be specified by the cols and rows attributes. <br>
+                    or even better, through CS height and width properties.
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Select Example
+                </td>
+                <td>
+                    <select name="songs">
+                        <option value="album1">Sheer Heart Attack</option>
+                        <option value="album2">A night at the Opera</option>
+                        <option value="album3">Baby Calm Down</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+</body>
+</html>
