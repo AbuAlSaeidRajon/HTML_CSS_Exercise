@@ -38,3 +38,42 @@ body {
     background: green;
     grid-column: 1 / span 4;
 }
+
+.two {
+    display: grid;
+    grid-template-areas: "top top top top" "left content content right" "left content content right" "left content content right" "bottom bottom bottom bottom";
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 0.4rem;
+    grid-auto-rows: 1fr;
+}
+
+.header {
+    grid-area: top;
+    background: rgb(171, 233, 3);
+    padding: 1rem;
+}
+
+.left {
+    grid-area: left;
+    background: blue;
+    padding: 1rem;
+}
+
+.main {
+    grid-area: content;
+    background: yellow;
+    padding: 1rem;
+}
+
+.aside {
+    grid-area: right;
+    background: orange;
+    padding: 1rem;
+}
+
+.footer {
+    grid-area: bottom;
+    background: red;
+    padding: 1rem;
+}
