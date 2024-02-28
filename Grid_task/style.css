@@ -52,6 +52,7 @@ body {
     grid-area: top;
     background: rgb(171, 233, 3);
     padding: 1rem;
+    min-height: 100px;
 }
 
 .left {
